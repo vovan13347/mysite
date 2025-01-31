@@ -1,0 +1,51 @@
+# Настройка rvm
+
+## Обновить linux ubuntu
+1. sudo apt-get update
+
+## Установить менеджер ключей
+2. sudo apt install -y curl gpg
+
+## Импорт ключа rvm
+3. command curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
+
+## Установить rvm
+4. \curl -sSL https://get.rvm.io | bash -s stable
+
+## Перезагрузка системы
+
+## Проверка установки rvm
+5. rvm list
+
+## Установка ruby 2.7.8
+6. rvm install 2.7.8
+7. /bin/bash --login
+8. source "$HOME/.rvm/scripts/rvm"
+9. source ~/.bashrc  # или source ~/.zshrc, ес
+
+
+## Установка rbenv
+
+# Установка зависимостей для установки rbenv
+sudo apt-get update
+sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev
+
+# Скачивание и установка rbenv
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+# Устиновка ruby-build
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+# Экспорт переменной среды
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+#  Перезагрузка shell
+source ~/.bashrc  # или source ~/.zshrc
+
+#Установка ruby 2.1.0
+rbenv install 2.1.0
+rbenv global 2.1.0
+
+# Проверка установки ruby
+ruby -v
