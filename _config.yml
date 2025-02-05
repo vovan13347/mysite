@@ -87,30 +87,39 @@ content:
     layout: list
     content:
       - layout: left
-        title: АНО ВО Московский гуманитарный университет
-        sub_title:  Производственная практика(Практика по получению профессиональных умений, и опыта профессиональной деятельности "Разработка базы данных «Университет» с использованием Microsoft access") 
-        caption: 01.02.19-25.06.19
-        #link: Link to company (optional)
-        #quote: >
-          #Short description of the company (optional)
-        #description: | # this will include new lines to allow paragraphs
-          #Description of role
+        title: Московский гуманитарный университет
+        sub_title: МосГУ    
+        link: https://mosgu.ru/
+        quote: >
+          01.02.19-25.06.19
+        description: Производственная практика ("Разработка базы данных «Университет» с использованием Microsoft access")
 
       - layout: left
-        title: АНО ВО Московский гуманитарный университет
-        sub_title: Учебная практика (практика по получению первичных профессиональных умений и навыков, в том числе первичных умений и навыков научно-исследовательской деятельности "Разработка базы данных «Больница» с использованием Microsoft access") 
-        caption: 06.07.19-19.07.19
-
-
-      - layout: left
-        title:  АНО ВО Московский гуманитарный университет
-        sub_title: Производственная практика ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
-        caption: 01.02.20-25.05.20
+        title: Московский гуманитарный университет
+        sub_title: МосГУ 
+        link: https://mosgu.ru/
+        quote: >
+          06.07.19-19.07.19
+        description: Учебная практика ("Разработка базы данных «Больница» с использованием Microsoft access") 
 
       - layout: left
-        title: АНО ВО Московский гуманитарный университет
-        sub_title: Преддипломная практика("Разработка интернет-магазина с использованием Django")
-        caption: 30.05.20-12.06.20
+        title: Московский гуманитарный университет
+        sub_title: МосГУ 
+        link: https://mosgu.ru/
+        quote: >
+          01.02.20-25.05.20
+        description: Производственная практика ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
+
+      - layout: left
+        title: Московский гуманитарный университет
+        sub_title: МосГУ 
+        link: https://mosgu.ru/
+        quote: >
+          30.05.20-12.06.20
+        description: Преддипломная практика("Разработка интернет-магазина с использованием фреймворка Django")
+        
+
+
 
       - layout: left
         title: Московский технический университет связи и информатики
@@ -119,91 +128,59 @@ content:
 
       - layout: left
         title: Московский технический университет связи и информатики
-        sub_title: Учебная практика (технологическая "Разработка контейнера и микросервиса на Java с помощью Spring Boot и Docker")
+        sub_title: Учебная практика (технологическая "Разработка контейнера и микросервиса на Java с помощью Spring Boot и развертывание на Docker")
         caption: 06.07.21-19.07.21
 
       - layout: left
         title: Московский технический университет связи и информатики
-        sub_title: Производственная практика ("Тестирование программного обеспечениия с помощью Python и Selenium") 
+        sub_title: Производственная практика ("Тестирование веб-сайтов с помощью Python и инструмента Selenium") 
         caption: 01.09.21-31.12.21
       
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: Производственная практика (научно-исследовательская работа "Сервис-ориентированная архитектура системы моделирования бизнес-процессов") 
-        caption: 31.01.22-05.06.22
 
       - layout: left
         title: Московский технический университет связи и информатики
-        sub_title: Практика (Системы искусственного интеллекта "Разработка системы искусственного интеллекта с помощью нейронной сети")
+        sub_title: Практика (Системы искусственного интеллекта "Разработка нейронных сетей для распознавания изображений с помощью ЯП Python") 
         caption: 16.06.22-20.06.22
 
       - layout: left
         title: Московский технический университет связи и информатики
-        sub_title: Производственная практика (технологическая "Разработка распределенной информационной системы с помощью СУБД MS SQL Server и C# ") 
+        sub_title: Производственная практика ("Разработка распределенной информационной системы для обслуживания гостиничного комплекса с помощью СУБД MS SQL Server и C#") 
         caption: 21.06.22-18.07.22
       
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: Производственная практика (научно-исследовательская работа "Разработка микросервисов") 
-        caption: 01.09.22-07.12.22
 
       - layout: left
         title: Московский технический университет связи и информатики
-        sub_title: Производственная практика (преддипломная "Разработка информационной  системы поиска товаров с использованием микросервисов и Flask")
+        sub_title: Производственная практика (преддипломная "Разработка системы поиска товаров с использованием веб-скрепинга и развертывание результатов с помощью фреймворка Flask") 
         caption: 23.01.23-05.02.23
 
 
-  - title: Education
+  - title: Образование
     layout: list
     content:
       - layout: top-left
-        title: АНО ВО Московский гуманитарный университет
-        sub_title: Прикладная информатика (бакалавриат)
-        caption: 2016 - 2020
-        #quote: >
-          #Short institution or course description (optional)
-        #description: | # this will include new lines to allow paragraphs
-          #Description of qualification
+        title: Московский гуманитарный университет
+        #sub_title: 
+        # caption: 
+        # quote: > 
+        description: |
+          2016 - 2020 Прикладная информатика (бакалавриат)
 
       - layout: top-left
         title: Московский технический университет связи и информатики
-        sub_title: | 
-          Информатика и вычислительная техника (магистратура)
-          (программа: Архитектура информационных систем) 
-        caption: 2020 - 2023
-        #quote: >
-          #Short institution or course description (optional)
-        #description: | # this will include new lines to allow paragraphs
-          #Description of qualification
+        #sub_title:
+        #caption: 
+        description:  |
+          2020 - 2023 Информатика и вычислительная техника (магистратура) <br> программа "Архитектура информационных систем" 
         
   #- title: A Little More About Me
-  - title: Skills
-    layout: list
+  - title: Навыки
+    layout: text
     content: 
       # this will include new lines to allow paragraphs
       # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
       # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Python (разработка веб-сайтов и веб-скрэйпинга), <br> HTML, CSS, Javascript, (разработка frontend веб-сайта), <br> Знание фреимвоков Django(разработка backend), и Flask, владение библиотеками Selenium, BeautifulSoup, unittest
       
-    - layout: left
-      sub_title: Python
-
-    - layout: left
-      sub_title: HTML
-
-    - layout: left
-      sub_title: CSS
-
-    - layout: left
-      sub_title: Javascript
-
-    - layout: left
-      sub_title: Django
-
-    - layout: left
-      sub_title: Flask
-    
-    - layout: left
-      sub_title: Web scraping
         
 
 # Footer
