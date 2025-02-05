@@ -78,42 +78,133 @@ content:
             icon: fab fa-github
             url: https://github.com/vovan13347/DjangoOscarShop
 
-        quote: >
-          Интернет-магазин электроники с возможностью выбора товаров по различным категориям
+        #quote: >
+          #Интернет-магазин 
         description: | # this will include new lines to allow paragraphs
           Интернет-магазин электроники с возможностью выбора товаров по различным категориям
 
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+      - layout: left
+        title: АНО ВО Московский гуманитарный университет
+        sub_title:  Производственная практика(Практика по получению профессиональных умений, и опыта профессиональной деятельности "Разработка базы данных «Университет» с использованием Microsoft access") 
+        caption: 01.02.19-25.06.19
+        #link: Link to company (optional)
+        #quote: >
+          #Short description of the company (optional)
+        #description: | # this will include new lines to allow paragraphs
+          #Description of role
+
+      - layout: left
+        title: АНО ВО Московский гуманитарный университет
+        sub_title: Учебная практика (практика по получению первичных профессиональных умений и навыков, в том числе первичных умений и навыков научно-исследовательской деятельности "Разработка базы данных «Больница» с использованием Microsoft access") 
+        caption: 06.07.19-19.07.19
+
+
+      - layout: left
+        title:  АНО ВО Московский гуманитарный университет
+        sub_title: Производственная практика ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
+        caption: 01.02.20-25.05.20
+
+      - layout: left
+        title: АНО ВО Московский гуманитарный университет
+        sub_title: Преддипломная практика("Разработка интернет-магазина с использованием Django")
+        caption: 30.05.20-12.06.20
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика (научно-исследовательская работа "Исследование и разработка архитектуры информационной системы по поиску электроники по критерию стоимости и надёжности с использованием сервис-ориентированной архитектуры") 
+        caption: 01.02.21-25.06.21
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Учебная практика (технологическая "Разработка контейнера и микросервиса на Java с помощью Spring Boot и Docker")
+        caption: 06.07.21-19.07.21
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика ("Тестирование программного обеспечениия с помощью Python и Selenium") 
+        caption: 01.09.21-31.12.21
+      
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика (научно-исследовательская работа "Сервис-ориентированная архитектура системы моделирования бизнес-процессов") 
+        caption: 31.01.22-05.06.22
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Практика (Системы искусственного интеллекта "Разработка системы искусственного интеллекта с помощью нейронной сети")
+        caption: 16.06.22-20.06.22
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика (технологическая "Разработка распределенной информационной системы с помощью СУБД MS SQL Server и C# ") 
+        caption: 21.06.22-18.07.22
+      
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика (научно-исследовательская работа "Разработка микросервисов") 
+        caption: 01.09.22-07.12.22
+
+      - layout: left
+        title: Московский технический университет связи и информатики
+        sub_title: Производственная практика (преддипломная "Разработка информационной  системы поиска товаров с использованием микросервисов и Flask")
+        caption: 23.01.23-05.02.23
+
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-          
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      - layout: top-left
+        title: АНО ВО Московский гуманитарный университет
+        sub_title: Прикладная информатика (бакалавриат)
+        caption: 2016 - 2020
+        #quote: >
+          #Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+          #Description of qualification
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-left
+        title: Московский технический университет связи и информатики
+        sub_title: | 
+          Информатика и вычислительная техника (магистратура)
+          (программа: Архитектура информационных систем) 
+        caption: 2020 - 2023
+        #quote: >
+          #Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+          #Description of qualification
+        
+  #- title: A Little More About Me
+  - title: Skills
+    layout: list
+    content: 
+      # this will include new lines to allow paragraphs
+      # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      
+    - layout: left
+      sub_title: Python
+
+    - layout: left
+      sub_title: HTML
+
+    - layout: left
+      sub_title: CSS
+
+    - layout: left
+      sub_title: Javascript
+
+    - layout: left
+      sub_title: Django
+
+    - layout: left
+      sub_title: Flask
+    
+    - layout: left
+      sub_title: Web scraping
+        
 
 # Footer
 footer_show_references: true
