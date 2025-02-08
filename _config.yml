@@ -83,6 +83,119 @@ content:
         description: | # this will include new lines to allow paragraphs
           Интернет-магазин электроники с возможностью выбора товаров по различным категориям
 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Система по поиску электроники 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: FlaskMicroservice
+            icon: fab fa-github
+            url: https://github.com/vovan13347/FlaskMicroservice
+
+        description: | # this will include new lines to allow paragraphs
+          Система ищет выбранную пользователем электронику с помощью веб скрепинга. Полученную информацию можно фильтровать по цене и рейтингу.
+
+
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Интернет-магазин на java 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: JavaShop
+            icon: fab fa-github
+            url: https://github.com/vovan13347/JavaShop
+
+        
+        description: | # this will include new lines to allow paragraphs
+          Интернет-магазин с возможностью довавления(изменения и удаления) покупателей, товаров и заказов 
+
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Проверяет открытие ссылок на сайте
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: SeleniumTestSiteLink
+            icon: fab fa-github
+            url: https://github.com/vovan13347/SeleniumTestSiteLink
+
+        
+        description: | # this will include new lines to allow paragraphs
+          Открывает выбранный сайт. Определяет все ссылки на сайте. 
+          Отсортировает данные ссылки в алфавитном порядке и открывает соответствующие им сайты. 
+          Затем закрывает все открытые сайты в порядке, соответствующем исходному списку ссылок. 
+          Исходный cайт закрывается первым.
+
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Проверяет работу калькулятора 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: TestSeleniumCaclculator
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumCaclculator
+
+        
+        description: | # this will include new lines to allow paragraphs
+          Проверяет работу калькулятора выполняя различные арифметические операции
+
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Проверяет работу строки поиска 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: TestSeleniumSearch
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumSearch
+
+        
+        description: | # this will include new lines to allow paragraphs
+          Открываяет поисковый сайт. В поисковом поле набирает слово Hello и нажать кнопку Найти 
+          Затем после открытия страницы с адресами сайтов, содержащих слово Hello, набирает в поисковом поле слово World. 
+          После нажатия кнопки Найти проверяет, что открылась страница с адресами сайтов, содержащих словосочетание HelloWorld. 
+          Закрывает окно сайта через 5-6 секунд.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Проверяет работу блога 
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+
+        additional_links:
+
+          - title: TestSeleniumBlog
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumBlog
+
+        
+        description: | # this will include new lines to allow paragraphs
+          Открывает блог и подсчитывает количество постов на главной странице. Проверяет, что статьи открываются. Проверяет постраничную навигацию.
+
+
   - title: Опыт
     layout: list
     content:
