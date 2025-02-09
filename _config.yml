@@ -54,10 +54,10 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/landscape-trees.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
  
-  Ищу работу или стажировку по направлению Python разработчик
+  Ищу работу или стажировку по направлению web разработчик
   
 
 content:
@@ -81,7 +81,7 @@ content:
         #quote: >
           #Интернет-магазин 
         description: | # this will include new lines to allow paragraphs
-          Интернет-магазин электроники с возможностью выбора товаров по различным категориям
+          Интернет-магазин электроники с возможностью добавления(изменения и удаления) данных о товарах и выбора по различным категориям с использованием python и фреймворка Django.
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -97,14 +97,14 @@ content:
             url: https://github.com/vovan13347/FlaskMicroservice
 
         description: | # this will include new lines to allow paragraphs
-          Система ищет выбранную пользователем электронику с помощью веб скрепинга. Полученную информацию можно фильтровать по цене и рейтингу.
+           Система выполняет поиск электоники с помощью веб скрепинга. Полученную информацию можно фильтровать по цене и рейтингу.
 
 
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Интернет-магазин на java 
+        title: Микросервис для реализации CRUD
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
 
@@ -114,86 +114,41 @@ content:
             icon: fab fa-github
             url: https://github.com/vovan13347/JavaShop
 
-        
+          - title: GetData
+            icon: fab fa-github
+            url: https://github.com/vovan13347/GetData
+
+          - title: GetGoods
+            icon: fab fa-github
+            url: https://github.com/vovan13347/GetGoods
+          
+          - title: MonitorPrice
+            icon: fab fa-github
+            url: https://github.com/vovan13347/MonitorPrice
+
         description: | # this will include new lines to allow paragraphs
-          Интернет-магазин с возможностью довавления(изменения и удаления) покупателей, товаров и заказов 
+          Реализация CRUD на примере интернет магазина с использованием java и spring boot. 
+          Интернет-магазин с возможностью добавления(изменения и удаления) покупателей, товаров и заказов.
+          Обработка данных в формате JSON  с использованием python и flask. 
+          
 
-
+      
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Проверяет открытие ссылок на сайте
+        title: Лабораторные задания 
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
 
         additional_links:
 
-          - title: SeleniumTestSiteLink
+          - title: Selenium
             icon: fab fa-github
-            url: https://github.com/vovan13347/SeleniumTestSiteLink
+            url: 
 
         
         description: | # this will include new lines to allow paragraphs
-          Открывает выбранный сайт. Определяет все ссылки на сайте. 
-          Отсортировает данные ссылки в алфавитном порядке и открывает соответствующие им сайты. 
-          Затем закрывает все открытые сайты в порядке, соответствующем исходному списку ссылок. 
-          Исходный cайт закрывается первым.
-
-
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Проверяет работу калькулятора 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-
-        additional_links:
-
-          - title: TestSeleniumCaclculator
-            icon: fab fa-github
-            url: https://github.com/vovan13347/TestSeleniumCaclculator
-
-        
-        description: | # this will include new lines to allow paragraphs
-          Проверяет работу калькулятора выполняя различные арифметические операции
-
-
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Проверяет работу строки поиска 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-
-        additional_links:
-
-          - title: TestSeleniumSearch
-            icon: fab fa-github
-            url: https://github.com/vovan13347/TestSeleniumSearch
-
-        
-        description: | # this will include new lines to allow paragraphs
-          Открываяет поисковый сайт. В поисковом поле набирает слово Hello и нажать кнопку Найти 
-          Затем после открытия страницы с адресами сайтов, содержащих слово Hello, набирает в поисковом поле слово World. 
-          После нажатия кнопки Найти проверяет, что открылась страница с адресами сайтов, содержащих словосочетание HelloWorld. 
-          Закрывает окно сайта через 5-6 секунд.
-
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Проверяет работу блога 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-
-        additional_links:
-
-          - title: TestSeleniumBlog
-            icon: fab fa-github
-            url: https://github.com/vovan13347/TestSeleniumBlog
-
-        
-        description: | # this will include new lines to allow paragraphs
-          Открывает блог и подсчитывает количество постов на главной странице. Проверяет, что статьи открываются. Проверяет постраничную навигацию.
+          
 
 
   - title: Опыт
@@ -210,7 +165,7 @@ content:
       - layout: left
         title: Московский гуманитарный университет
         sub_title: МосГУ 
-        link: 
+        link: https://mosgu.ru/
         quote: >
           06.07.19-19.07.19
         description: Учебная практика ("Разработка базы данных «Больница» с использованием Microsoft access") 
@@ -223,42 +178,6 @@ content:
           01.02.20-25.05.20
         description: Производственная практика ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
 
-      - layout: left
-        title: Московский гуманитарный университет
-        sub_title: МосГУ 
-        link: 
-        quote: >
-          30.05.20-12.06.20
-        description: Преддипломная практика("Разработка интернет-магазина с использованием фреймворка Django")
-        
-    
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: МТУСИ    
-        link: https://mtuci.ru/
-        quote: >
-          01.02.21-25.06.21
-        description: Производственная практика ("Исследование и разработка архитектуры информационной системы по поиску электроники по критерию стоимости и надёжности с использованием сервис-ориентированной архитектуры") 
-
-    
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: МТУСИ    
-        link:
-        quote: >
-          06.07.21-19.07.21
-        description: 
-          Учебная практика ("Разработка контейнера и микросервиса на Java с помощью Spring Boot и развертывание на Docker")
-
-        
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: МТУСИ    
-        link: 
-        quote: >
-          01.09.21-31.12.21
-        description: 
-          Производственная практика ("Тестирование веб-сайтов с помощью Python и инструмента Selenium") 
       
     
       - layout: left
@@ -281,14 +200,6 @@ content:
           Производственная практика ("Разработка распределенной информационной системы для обслуживания гостиничного комплекса с помощью СУБД MS SQL Server и C#") 
       
 
-      - layout: left
-        title: Московский технический университет связи и информатики
-        sub_title: МТУСИ    
-        link: 
-        quote: >
-          23.01.23-05.02.23
-        description: 
-          Производственная практика ("Разработка системы поиска товаров с использованием веб-скрепинга и развертывание результатов с помощью фреймворка Flask") 
           
 
 
@@ -322,7 +233,7 @@ content:
         
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
