@@ -1,0 +1,29 @@
+# Создание systemd-сервиса для Jekyll
+sudo nano /etc/systemd/system/jekyll.service
+
+# Вставить следующий код:
+
+[Unit]
+Description=Jekyll Site
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=PATH_TO_YOUR_JEKYLL_SITE
+ExecStart=/usr/bin/bundle exec jekyll serve --host 0.0.0.0
+Restart=always
+RestartSec=10
+Environment=JEKYLL_ENV=production
+
+[Install]
+WantedBy=multi-user.target
+
+# Перезагрузить systemctl
+sudo systemctl daemon-reload
+
+# Выполнить
+sudo systemctl enable jekyll.service
+sudo systemctl start jekyll.service
+sudo systemctl status jekyll.service

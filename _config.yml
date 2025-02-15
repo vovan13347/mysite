@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Владимир
+name: Владимир Лебедев
 title: Разработчик Python
 email: vova-lebedev-97@mail.ru
 # email_title: Email (Email title override)
@@ -54,7 +54,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/landscape-trees.jpg #Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/maxresdefault.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
  
   Ищу работу или стажировку по направлению web разработчик
@@ -69,8 +69,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Интернет-магазин 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 
 
         additional_links:
 
@@ -87,8 +87,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Система по поиску электроники 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 
 
         additional_links:
 
@@ -105,8 +105,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Микросервис для реализации CRUD
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 
 
         additional_links:
 
@@ -137,18 +137,30 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Лабораторные задания 
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 
 
         additional_links:
 
-          - title: Selenium
+          - title: SeleniumTestSiteLink
             icon: fab fa-github
-            url: 
+            url: https://github.com/vovan13347/SeleniumTestSiteLink
+        
+          - title: STestSeleniumCaclculator
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumCaclculator
+          
+          - title: TestSeleniumSearch
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumSearch
 
+          - title: TestSeleniumBlog
+            icon: fab fa-github
+            url: https://github.com/vovan13347/TestSeleniumBlog
+        
         
         description: | # this will include new lines to allow paragraphs
-          
+          Лабораторные задания выполненные на языке Python с применением библиотеки Selenium для автоматизации тестирования.
 
 
   - title: Опыт
@@ -160,7 +172,7 @@ content:
         link: https://mosgu.ru/
         quote: >
           01.02.19-25.06.19
-        description: Производственная практика ("Разработка базы данных «Университет» с использованием Microsoft access")
+        description:  ("Разработка базы данных «Университет» с использованием Microsoft access")
 
       - layout: left
         title: Московский гуманитарный университет
@@ -168,7 +180,7 @@ content:
         link: https://mosgu.ru/
         quote: >
           06.07.19-19.07.19
-        description: Учебная практика ("Разработка базы данных «Больница» с использованием Microsoft access") 
+        description: ("Разработка базы данных «Больница» с использованием Microsoft access") 
 
       - layout: left
         title: Московский гуманитарный университет
@@ -176,7 +188,7 @@ content:
         link: 
         quote: >
           01.02.20-25.05.20
-        description: Производственная практика ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
+        description: ("Разработка оконных приложений с использованием MS SQL Server и Visual Studio") 
 
       
     
@@ -187,7 +199,7 @@ content:
         quote: >
           16.06.22-20.06.22
         description: 
-          Практика (Системы искусственного интеллекта "Разработка нейронных сетей для распознавания изображений с помощью ЯП Python") 
+           (Разработка системы искусственного интеллекта "Разработка нейронных сетей для распознавания изображений с помощью ЯП Python") 
       
 
       - layout: left
@@ -197,7 +209,7 @@ content:
         quote: >
           21.06.22-18.07.22
         description: 
-          Производственная практика ("Разработка распределенной информационной системы для обслуживания гостиничного комплекса с помощью СУБД MS SQL Server и C#") 
+           ("Разработка распределенной информационной системы для обслуживания гостиничного комплекса с помощью СУБД MS SQL Server и C#") 
       
 
           
@@ -228,7 +240,7 @@ content:
       # this will include new lines to allow paragraphs
       # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
       # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-      Python (разработка веб-сайтов и веб-скрэйпинга), <br> HTML, CSS, Javascript, (разработка frontend веб-сайта), <br> Знание фреимвоков Django(разработка backend), и Flask, владение библиотеками Selenium, BeautifulSoup, unittest
+      Python (разработка веб-сайтов и веб-скрэйпинга), <br> HTML, CSS, Javascript, (разработка frontend веб-сайта), <br> Знание фреимвоков Django(разработка backend), и Flask, владение библиотеками Selenium, BeautifulSoup, unittest, jekyll
       
         
 
